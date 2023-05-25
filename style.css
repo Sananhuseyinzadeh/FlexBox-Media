@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding:5rem;
+}
+
+.box img{
+    width: 100%;
+}
+
+.box{
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.box-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first-words h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px ;
+}
+
+.first-words p{
+    text-align: center;
+    color: #69707a;
+    margin-bottom: 20px;
+}
+
+.case img{
+    width: 100%;
+}
+
+.case{
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.case-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.second-words h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px ;
+}
+
+.second-words p{
+    text-align: center;
+    color: #69707a;
+    margin-bottom: 20px;
+}
+
+.third-words h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px ;
+}
+
+.third-words p{
+    text-align: center;
+    color: #69707a;
+    margin-bottom: 20px;
+}
+
+.bottom-words {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first-bottom-words h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.second-bottom-words h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.third-bottom-words h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.first-bottom-words p{
+    color: #69707a;
+    font-size: 20px;
+}
+
+.second-bottom-words p{
+    color: #69707a;
+    font-size: 20px;
+}
+
+.third-bottom-words p{
+    color: #69707a;
+    font-size: 20px;
+}
+
+.first-bottom-words .first-high-bottom-words h1{
+    color: #69707a;
+    text-align: center;
+    font-size: 60px;
+}
+
+.second-bottom-words .second-high-bottom-words h1{
+    color: #69707a;
+    text-align: center;
+    font-size: 60px;
+}
+
+.third-bottom-words .third-high-bottom-words h1{
+    color: #69707a;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+@media (max-width:576px){
+    .box{
+        width: 100%;
+    }
+
+    .case{
+        width: 100%;
+    }
+
+    .bottom-words{
+        width: 100%;
+    }
+}
